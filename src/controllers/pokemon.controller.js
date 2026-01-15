@@ -1,5 +1,5 @@
 const axios = require("axios")
-const Pokemon = require("../models/Pokemon ")
+const Pokemon = require("../models/Pokemon")
 
 exports.createPokemon = async (req, res) => {
     try {
